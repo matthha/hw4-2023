@@ -86,7 +86,7 @@ img {
  .text {
     align-self: center;
     max-height: 40vh;
-    overflow: auto;
+    overflow:scroll;
   }
 
 
