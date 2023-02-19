@@ -29,6 +29,7 @@ nav a:focus {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
   row-gap: 30px;
+  column-gap: 0px;
 
 }
 
@@ -69,16 +70,16 @@ img {
   /* Requirement 8 code here -- Do not remove this comment. */
 
 .about, .about-image{
-  grid-row: 1;
+  grid-row-start: 1;
 }
 .clients, .clients-image {
-  grid-row:2;
+  grid-row-start:2;
 }
 .method, .method-image{
-  grid-row:3;
+  grid-row-start:3;
 }
 .contact, .contact-image{
-  grid-row:4;
+  grid-row-start:4;
 }
 
   /* Requirement 9 code here -- Do not remove this comment. */
